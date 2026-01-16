@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jess Mechanics | Mechanic</title>
+    <meta
+      name="description"
+      content="Reliable mechanical repairs, servicing, and diagnostics."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container header-inner">
+        <div class="brand">
+          <div class="logo" aria-hidden="true">🔧</div>
+          <div>
+            <div class="brand-name">Jess Mechanics</div>
+            <div class="brand-sub">Mechanic • Servicing • Repairs</div>
+          </div>
+        </div>
+
+        <div class="header-cta">
+          <a class="btn btn-ghost" href="#contact">Get a quote</a>
+          <a class="btn" href="tel:+61470113505">Call now</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div>
+            <h1>Your trusted local auto repair centre</h1>
+            <p class="lead">
+              Quality workmanship for everyday drivers. Clear pricing, quick
+              turnaround, and friendly service.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn" href="tel:+61470113505">Call: 0470113505</a>
+              <a class="btn btn-ghost" href="#services">See services</a>
+            </div>
+
+            <div class="trust">
+              <div class="trust-item">✅ Licensed & insured</div>
+              <div class="trust-item">✅ Logbook servicing</div>
+              <div class="trust-item">✅ Diagnostics</div>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <h2>Opening hours</h2>
+            <ul class="hours">
+              <li><span>Mon-Fri</span><span> 9:00am - 3:00pm</span></li>
+              <li><span>Sat</span><span> 9:00am - 3:00pm</span></li>
+              <li><span>Sun</span><span> Closed</span></li>
+            </ul>
+            <a class="btn btn-full" href="#location">Find us</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <h2>Services</h2>
+          <p class="muted">
+            Repairs and maintenance for most makes and models.
+          </p>
+
+          <div class="grid">
+            <div class="card">
+              <h3>Logbook servicing</h3>
+              <p>
+                Keep your warranty and stay road-ready with scheduled servicing.
+              </p>
+            </div>
+            <div class="card">
+              <h3>Brakes & tyres</h3>
+              <p>Brake pads, rotors, tyres, alignments, and safety checks.</p>
+            </div>
+            <div class="card">
+              <h3>Diagnostics</h3>
+              <p>
+                Check engine light, battery/charging issues, and fault finding.
+              </p>
+            </div>
+            <div class="card">
+              <h3>Engine & cooling</h3>
+              <p>
+                Leaks, overheating, radiators, hoses, and thermostat repairs.
+              </p>
+            </div>
+            <div class="card">
+              <h3>Safety checks</h3>
+              <p>
+                Pre-purchase inspections and safety checks (where available).
+              </p>
+            </div>
+            <div class="card">
+              <h3>General repairs</h3>
+              <p>Suspension, steering, belts, minor and major repairs.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="location" class="section section-alt">
+        <div class="container two-col">
+          <div>
+            <h2>Location</h2>
+            <p><strong>Address:</strong> 140 Cavan Road, Dry Creek, 5094</p>
+            <p>
+              <strong>Phone:</strong>
+              <a href="tel:+61470113505">0470 113 505</a>
+            </p>
+            <p class="muted">
+              Walk-ins welcome. Call ahead for faster service.
+            </p>
+          </div>
+
+          <div class="map-wrap" aria-label="Google map">
+            <!-- Replace src with your Google Maps embed link -->
+            <iframe
+              title="Map"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.6459469676806!2d138.59065497575054!3d-34.83928347287076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab0b7acf0cb3a35%3A0xe8b6193085687781!2sJESS%20MECHANICS!5e1!3m2!1sen!2sau!4v1768509268402!5m2!1sen!2sau"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>Get a quote</h2>
+          <p class="muted">
+            Send a message and we'll get back to you as soon as possible.
+          </p>
+
+          <form
+            action="https://docs.google.com/forms/d/e/1FAIpQLSerHCRoiqaG90Bd4PNew8yOzFoJajHLx3myDdHPD30J3tooGw/formResponse"
+            method="POST"
+            target="hidden_iframe"
+            onsubmit="onSubmitted();"
+          >
+            <div class="form-row">
+              <label>
+                Name
+                <input
+                  type="text"
+                  name="entry.1222202983"
+                  placeholder="Name"
+                  required
+                />
+              </label>
+              <label>
+                Phone Number
+                <input
+                  type="tel"
+                  name="entry.1825329712"
+                  placeholder="Phone Number"
+                  required
+                />
+              </label>
+            </div>
+            <br />
+            <label>
+              Message
+              <textarea
+                name="entry.1581652580"
+                placeholder="What does your car need?"
+                row="1"
+                required
+              ></textarea>
+            </label>
+            <br />
+            <button class="btn" type="submit">Send message</button>
+
+            <p class="tiny muted">
+              Prefer to call? <a href="tel:+61470113505">Tap here</a>.
+            </p>
+
+            <iframe name="hidden_iframe" style="display: none"></iframe>
+
+            <div id="success" style="display: none; margin-top: 12px">
+              Thanks! Your message has been sent.
+            </div>
+
+            <script>
+              function onSubmitted() {
+                // Show success message immediately (simple approach)
+                document.getElementById("success").style.display = "block";
+              }
+            </script>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>© <span id="year"></span> Jess Mechanics</div>
+        <div class="muted">Built locally</div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
